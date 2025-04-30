@@ -1,0 +1,38 @@
+[project]
+name = "dms-data-mining"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ace-tools>=0.0",
+    "cucim-cu12==25.2.*",
+    "cudf-cu12==25.2.*",
+    "cugraph-cu12==25.2.*",
+    "cuml-cu12==25.2.*",
+    "cuproj-cu12==25.2.*",
+    "cuspatial-cu12==25.2.*",
+    "cuvs-cu12==25.2.*",
+    "cuxfilter-cu12==25.2.*",
+    "dask-cudf-cu12==25.2.*",
+    "faker>=37.1.0",
+    "fastexcel>=0.13.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.6",
+    "matplotlib>=3.10.1",
+    "nx-cugraph-cu12==25.2.*",
+    "openpyxl>=3.1.5",
+    "oracledb>=3.1.0",
+    "pandas>=2.2.3",
+    "pandas-profiling>=3.6.6",
+    "plotly>=6.0.1",
+    "polars>=1.27.1",
+    "pylibraft-cu12==25.2.*",
+    "python-dotenv>=1.1.0",
+    "raft-dask-cu12==25.2.*",
+    "seaborn>=0.13.2",
+    "setuptools>=80.0.0",
+    "smbprotocol>=1.15.0",
+    "sqlalchemy>=2.0.40",
+    "xlsxwriter>=3.2.2",
+]
