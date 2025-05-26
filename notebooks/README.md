@@ -27,7 +27,6 @@ This directory contains Jupyter notebooks for data exploration, analysis, and vi
 
 5. Clean output before committing
 
-   - Consider using tools like `nbstripout` to remove large outputs
    - Clear sensitive data before sharing
 
 6. Import common dependencies at the top
@@ -37,10 +36,6 @@ This directory contains Jupyter notebooks for data exploration, analysis, and vi
    import numpy as np
    import matplotlib.pyplot as plt
    import seaborn as sns
-
-   # For plotting
-   %matplotlib inline
-   plt.style.use('ggplot')
    ```
 
 7. Consider organizing notebooks in subdirectories for complex projects
